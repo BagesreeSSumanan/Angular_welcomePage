@@ -3,9 +3,16 @@ h2{
     font-size: 40px;
     color: crimson;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 p{
     text-align: center;
     font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+}
+img{
+    height: 250px;
 }

@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './welcome.component.css'
 })
 export class WelcomeComponent {
-
+  Welcome_message:string ="Welcome to Angular"
+  image:string ="angular_icon.png"
 }
