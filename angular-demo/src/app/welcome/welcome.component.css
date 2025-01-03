@@ -3,7 +3,7 @@ h2{
     font-size: 40px;
     color: crimson;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 p{
     text-align: center;
@@ -14,5 +14,5 @@ p{
     justify-content: center; 
 }
 img{
-    height: 250px;
+    height: 150px;
 }

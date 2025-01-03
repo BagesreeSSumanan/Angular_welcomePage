@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 export class WelcomeComponent {
   Welcome_message:string ="Welcome to Angular"
   image:string ="angular_icon.png"
+  topics=['Setup Project','Create Component','Data Binding','Directives']
 }
