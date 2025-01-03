@@ -11,4 +11,9 @@ export class WelcomeComponent {
   Welcome_message:string ="Welcome to Angular"
   image:string ="angular_icon.png"
   topics=['Setup Project','Create Component','Data Binding','Directives']
+  greetingMessage: boolean =false;
+
+  togglemessage(){
+    this.greetingMessage= true;
+  }
 }

@@ -4,7 +4,12 @@
     <img [src]="image">
 </div>
 <textbox></textbox>
+<div class="container">
+    <button (click)="togglemessage()" *ngIf="!greetingMessage">Start Learing</button>
+    <greeting [Message]='greetingMessage'></greeting>
+</div>
 <p>Topics</p>
 <div *ngFor="let items of topics">
     <p>{{items}}</p>
 </div>
+

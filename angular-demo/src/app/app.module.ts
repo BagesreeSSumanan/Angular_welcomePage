@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TextboxComponent } from './welcome/textbox/textbox.component';
 import { FormsModule } from '@angular/forms';
+import { GreetingComponent } from './welcome/greeting/greeting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    TextboxComponent
+    TextboxComponent,
+    GreetingComponent
   ],
   imports: [
     BrowserModule,
