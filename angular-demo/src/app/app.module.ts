@@ -7,13 +7,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TextboxComponent } from './welcome/textbox/textbox.component';
 import { FormsModule } from '@angular/forms';
 import { GreetingComponent } from './welcome/greeting/greeting.component';
+import { ToggleComponent } from './welcome/toggle/toggle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     TextboxComponent,
-    GreetingComponent
+    GreetingComponent,
+    ToggleComponent
   ],
   imports: [
     BrowserModule,
